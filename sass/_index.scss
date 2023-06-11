@@ -1,0 +1,35 @@
+/* INDEX */
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.mainContainer{
+    background-image: url(../img/bosque-lg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include sizes(auto, 65rem);
+}
+
+.textContainer{
+    color: rgb(236, 236, 236);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    @include sizes(auto, 100%);
+        h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 8rem;
+        line-height: 14rem;
+        padding-top: 20rem;
+        }
+        p{
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+}
+
+
+

@@ -1,0 +1,89 @@
+/* ABOUT US */
+
+.aboutUsContainer{
+    background-image: url(../img/bosque-lg-opacidad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    height: 65rem;
+        section{
+            padding-top: 10rem;
+        }
+}
+
+.cardContainer{
+    height: 100%;
+    width: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 1rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.card1{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1rem;
+    border: 1px solid green;
+    align-items: center;
+    background-color: rgb(188, 233, 188);
+    p{
+        margin: 7rem 2rem 2rem 2rem;
+        font-size: 1.7rem;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.card2{
+    @extend .card1;
+    background-image:url(../img/galeria-fotografo.jpg);
+    background-size: cover; 
+}
+
+
+
+.image{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.image img{
+    width: 100%;
+}
+
+.aboutUsText{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 12rem;
+    width: auto;
+        a{
+            text-decoration: none;
+            color: rgb(43, 42, 42);
+        }
+        p{
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: bolder;
+        }
+}
+
+.textoSobreNos{
+    background-color: rgb(198, 231, 198);
+    text-align: center;
+    justify-content:flex-end;
+    // margin-left: 10px;
+    border: 1px solid #fff;
+    p{
+        margin-top: 5rem;
+        font-size: 1.5rem;
+    }
+}
+
+.hola{
+    padding-top: 13rem;
+}
+

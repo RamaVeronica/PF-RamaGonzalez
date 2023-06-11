@@ -1,0 +1,210 @@
+/* MEDIA QUERIES */
+
+// /* 1024px */
+// @media screen and (max-width:1024px){
+//     .mainContainer{
+//         height: 36rem;
+//     }
+//     .mainContainer h1{
+//         line-height: 24rem;
+//         font-size: 400%;
+//     }
+
+//     .sectionContainer{
+//         height: 30rem;
+//     }
+
+//     .sectionMonth{
+//         padding: 0 21rem;
+//     }
+
+//     .cardContainer{
+//         width: 65%;
+//     }
+
+//     .card p{
+//         font-size: 1.5rem;
+//     }
+
+//     .aboutUsContainer{
+//         height: 36rem;
+//     }
+//     .aboutUsContainer h1{
+//         line-height: 24rem;
+//         font-size: 400%;
+//     }
+
+// }
+
+/* 768px */
+
+@media screen and (max-width:768px){
+    .mainContainer{
+        height: 44rem;
+            h1{
+                line-height: 7rem;
+                font-size: 5.5rem;
+                padding-top: 13rem;
+            }
+            p{
+                font-size: 2.5rem;
+            }
+    }  
+    .footerContentContainer{
+        margin-right: 7rem;
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+}
+
+
+/* 600px */
+
+@media screen and (max-width:600px){
+    .mainContainer{
+        height: 21rem;
+    }
+    .mainContainer h1{
+        line-height: 15rem;
+        font-size: 310%;
+    }
+
+    .subtitle{
+        font-size: 2rem;
+    }
+
+    .sectionMonth{
+        padding: 0 5rem;
+    }
+
+    .cardContainer{
+        width: 60%;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .sectionContainer{
+        height: 33rem;
+        padding: 0 10rem;
+    }
+
+    // .aboutUsContainer{
+    //     height: 21rem;
+    // }
+    
+    // .aboutUsContainer h1{
+    //     line-height: 15rem;
+    //     font-size: 310%;
+    // }
+
+    // .aboutUsSection{
+    //     padding: 0 11rem;
+    //     height: 45rem;
+    // }
+
+    .logoContainerFooter{
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .footerContainer{
+        padding: 2rem 1rem;
+    }
+    
+    .footerMenu{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 45%;
+        font-size: 1.2rem;
+    }
+
+    .footerContentContainer{
+        width: 17rem;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    
+    .mainContainer{
+        height: 17rem;
+    }
+    
+    .mainContainer h1{
+        line-height: 42rem;
+        font-size: 234%;
+        font-weight: bold;
+    }
+
+    .subtitle{
+        padding-bottom: 1rem;
+    }
+
+    .subtitle2{
+        font-size: 1.7rem;
+    }
+
+    .sectionMonth{
+        margin-top: 8rem;
+    }
+
+    .cardContainer{
+        grid-template-columns: 1fr;
+        width: 51%;
+    }
+
+    .sectionContainer{
+        height: 45rem;
+        padding: 0 7rem;
+    }
+
+    .aboutUsContainer{
+        height: 17rem;
+    }
+    
+    .aboutUsContainer h1{
+        line-height: 42rem;
+        font-size: 266%;
+        font-weight: bold;
+    }
+
+    .aboutUsSection{
+        margin-top: 8rem;
+        padding: 0 8rem;
+        height: 60rem;
+    }
+
+    .productContainer{
+        height: 17rem;
+    }
+
+    .productContainer h1{
+        line-height: 42rem;
+        font-size: 266%;
+        font-weight: bold;
+    }
+
+    .footerContainer{
+        padding: 2rem 1rem;
+        flex-direction: column;
+        align-content: stretch;
+        align-items: center;
+    }
+    
+    .footerMenu{
+        justify-content: center;
+        font-size: 1.3rem;
+    }
+
+    .footerContentContainer{
+        width: 17rem;
+        align-items: center;
+    }
+
+    .socialLink{
+        margin-right: 0;
+    }
+
+}

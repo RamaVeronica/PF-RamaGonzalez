@@ -1,0 +1,45 @@
+/* PÁGINA CONTACTO */
+
+.contactContainer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    line-height: 2rem;
+    height: 100%;
+}
+
+.contactForm{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 2rem 4rem;
+    margin: 19rem auto;
+    background-color: rgb(137, 190, 137);
+    opacity: 0.9;
+
+    div{
+        p{
+            font-size: 1.30rem;
+            font-weight: 300;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.formControl{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+

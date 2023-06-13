@@ -229,6 +229,9 @@ footer .socialLink:nth-of-type(3) {
 }
 
 @media screen and (max-width: 768px) {
+  .bodyContainer {
+    padding: 0 6rem 0 6 rem;
+  }
   .mainContainer {
     height: 44rem;
   }
@@ -280,6 +283,9 @@ footer .socialLink:nth-of-type(3) {
   .contactForm p {
     font-size: 1.3rem;
   }
+  .aboutUsText {
+    height: 32rem;
+  }
 }
 /* 600px */
 @media screen and (max-width: 600px) {
@@ -307,6 +313,12 @@ footer .socialLink:nth-of-type(3) {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .aboutUsText {
+    height: 31rem;
+  }
+  .aboutUsText p {
+    font-size: 1.8rem;
+  }
   .sectionVideos h3 {
     font-size: 4.5rem;
   }
@@ -318,10 +330,6 @@ footer .socialLink:nth-of-type(3) {
   }
   .footerContentContainer p {
     font-size: 1.3rem;
-  }
-  .cardContainer {
-    width: 60%;
-    grid-template-columns: repeat(2, 1fr);
   }
   .sectionContainer {
     height: 33rem;
@@ -335,68 +343,48 @@ footer .socialLink:nth-of-type(3) {
   }
 }
 @media screen and (max-width: 480px) {
+  .bodyContainer {
+    padding: 0 3rem 0 3rem;
+  }
   .mainContainer {
-    height: 17rem;
+    height: 47rem;
+    margin: 0 0.5rem 5 0.5rem;
   }
   .mainContainer h1 {
-    line-height: 42rem;
+    line-height: 8rem;
     font-size: 234%;
-    font-weight: bold;
   }
-  .subtitle {
-    padding-bottom: 1rem;
+  .mainContainer p {
+    font-size: 2rem;
   }
-  .subtitle2 {
-    font-size: 1.7rem;
+  .sectionAboutUs {
+    height: 38rem;
+    margin-bottom: 6px;
   }
-  .sectionMonth {
-    margin-top: 8rem;
+  .sectionAboutUs h2 {
+    font-size: 4.5rem;
   }
-  .cardContainer {
-    grid-template-columns: 1fr;
-    width: 51%;
+  .sectionAboutUs p {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-  .sectionContainer {
-    height: 45rem;
-    padding: 0 7rem;
+  .sectionVideos {
+    line-height: 10rem;
   }
-  .aboutUsContainer {
-    height: 17rem;
+  .aboutUsText {
+    height: 35rem;
   }
-  .aboutUsContainer h1 {
-    line-height: 42rem;
-    font-size: 266%;
-    font-weight: bold;
-  }
-  .aboutUsSection {
-    margin-top: 8rem;
-    padding: 0 8rem;
-    height: 60rem;
-  }
-  .productContainer {
-    height: 17rem;
-  }
-  .productContainer h1 {
-    line-height: 42rem;
-    font-size: 266%;
-    font-weight: bold;
-  }
-  .footerContainer {
-    padding: 2rem 1rem;
-    flex-direction: column;
-    align-content: stretch;
-    align-items: center;
-  }
-  .footerMenu {
-    justify-content: center;
-    font-size: 1.3rem;
+  .aboutUsText p {
+    font-size: 1.3;
   }
   .footerContentContainer {
-    width: 17rem;
-    align-items: center;
-  }
-  .socialLink {
     margin-right: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bodyContainer {
+    padding: 0;
   }
 }
 * {

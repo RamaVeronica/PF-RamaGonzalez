@@ -1,43 +1,6 @@
-/* MEDIA QUERIES */
+// MEDIA QUERIES
 
-// /* 1024px */
-// @media screen and (max-width:1024px){
-//     .mainContainer{
-//         height: 36rem;
-//     }
-//     .mainContainer h1{
-//         line-height: 24rem;
-//         font-size: 400%;
-//     }
-
-//     .sectionContainer{
-//         height: 30rem;
-//     }
-
-//     .sectionMonth{
-//         padding: 0 21rem;
-//     }
-
-//     .cardContainer{
-//         width: 65%;
-//     }
-
-//     .card p{
-//         font-size: 1.5rem;
-//     }
-
-//     .aboutUsContainer{
-//         height: 36rem;
-//     }
-//     .aboutUsContainer h1{
-//         line-height: 24rem;
-//         font-size: 400%;
-//     }
-
-// }
-
-/* 768px */
-
+// 768px
 @media screen and (max-width:768px){
     .mainContainer{
         height: 44rem;
@@ -50,35 +13,103 @@
                 font-size: 2.5rem;
             }
     }  
+
+    .sectionAboutUs{
+        height: 44rem;
+        h2{
+            line-height: 7rem;
+            font-size: 5.5rem;
+            padding-top: 13rem;
+        }
+        p{
+            font-size: 2.2rem;
+        }
+    }
+
+    .sectionVideos{
+        h3{
+            font-size: 5rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+
     .footerContentContainer{
-        margin-right: 7rem;
+        margin-right: 3rem;
         p{
             font-size: 1.2rem;
         }
     }
+    
+    #footer{
+        section{
+            padding: 2rem 1rem;
+        }
+    }
+    
+    .galeryContainer{
+        padding: 2rem 0 8rem 0;
+    }
 
+    .contactForm{
+        margin: 2rem 3rem;
+        h1{
+            font-size: 2.3rem;
+            padding-top: 0;
+            line-height: 3rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    }
 }
 
-
 /* 600px */
-
 @media screen and (max-width:600px){
+    .bodyContainer{
+        padding: 0 5rem 0 5rem;
+    }
+
     .mainContainer{
-        height: 21rem;
-    }
-    .mainContainer h1{
-        line-height: 15rem;
-        font-size: 310%;
-    }
-
-    .subtitle{
-        font-size: 2rem;
-    }
-
-    .sectionMonth{
-        padding: 0 5rem;
+        height: 40rem;
+        h1{
+            line-height: 9rem;
+            font-size: 400%;
+        }
+        p{
+            font-size: 2rem;
+        }
     }
 
+    .sectionAboutUs{
+        height: 38rem;
+        h2{
+            font-size: 4.5rem;
+        }
+        p{
+            font-size: 1.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            
+        }
+    }
+
+    .sectionVideos{
+        h3{
+            font-size: 4.5rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .footerContentContainer{
+        margin-right: 6rem;
+        p{
+            font-size: 1.3rem;
+        }
+    }
     .cardContainer{
         width: 60%;
         grid-template-columns: repeat(2,1fr);
@@ -89,40 +120,27 @@
         padding: 0 10rem;
     }
 
-    // .aboutUsContainer{
-    //     height: 21rem;
+    .contactForm{
+        margin: 2rem 3rem;
+        h1{
+            font-size: 2.3rem;
+        }
+    }    
+    // .footerContainer{
+    //     padding: 2rem 1rem;
     // }
     
-    // .aboutUsContainer h1{
-    //     line-height: 15rem;
-    //     font-size: 310%;
+    // .footerMenu{
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: flex-start;
+    //     width: 45%;
+    //     font-size: 1.2rem;
     // }
 
-    // .aboutUsSection{
-    //     padding: 0 11rem;
-    //     height: 45rem;
+    // .footerContentContainer{
+    //     width: 17rem;
     // }
-
-    .logoContainerFooter{
-        height: 9rem;
-        width: 9rem;
-    }
-
-    .footerContainer{
-        padding: 2rem 1rem;
-    }
-    
-    .footerMenu{
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        width: 45%;
-        font-size: 1.2rem;
-    }
-
-    .footerContentContainer{
-        width: 17rem;
-    }
 }
 
 

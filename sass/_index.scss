@@ -1,4 +1,9 @@
 /* INDEX */
+$size_title: 6rem;
+$font_title: Haettenschweiler;
+$green1: #015701;
+
+
 @mixin sizes($width, $height) {
     height: $height;
     width: $width;
@@ -9,6 +14,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     @include sizes(auto, 65rem);
+    margin-bottom: 7rem;
+}
+
+.sectionAboutUs{
+    @extend .mainContainer;
+    background-image: url(../img/fotografa.jpg);
+    margin-bottom: 5rem;
+    a{
+        text-decoration: none;
+        color: #fff
+    }
 }
 
 .textContainer{
@@ -29,7 +45,32 @@
             font-size: 3rem;
             font-weight: bolder;
         }
+        h2{
+            @extend h1;
+            font-size: $size_title;
+            padding-top: 24rem;
+        }
+        h3{
+            @extend h1;
+            font-size: $size_title;
+            color: $green1;
+            padding-top: 0rem;
+        }
 }
 
+.sectionVideos{
+    line-height: 10rem;
+    p{
+        color: $green1;
+        font-size: 2.5rem;
+        line-height: 1rem;
+    }
+    a{
+        text-decoration: none;
+    }
+}
 
-
+.iframeVideo{
+    display: flex;
+    flex-wrap: wrap;
+}

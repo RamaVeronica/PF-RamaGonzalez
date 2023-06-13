@@ -1,11 +1,12 @@
+@use 'assets/var';
 @use 'assets/header';
 @use 'index';
 @use 'aboutUs';
 @use 'videos';
 @use 'galery';
 @use 'contact';
-@use 'assets/mediaqueries';
 @use 'assets/footer';
+@use 'assets/mediaqueries';
 
 *{
     margin: 0;
@@ -17,4 +18,8 @@
 
 html{
     font-size: 62.5%;
+}
+
+.bodyContainer{
+    padding: 0 8rem 0 8rem;
 }

@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Expertos en videos y amantes de la naturaleza">
-    <title>Human and Nature co - Sobre Nosotros</title>
+    <meta name="description" content="We are video experts and nature lovers">
+    <meta name="keywords" content="video, photo, relax, meditation, sleep, music, nature, love, fotograph, fotographers, passion, work">
+    <title>Human and Nature co - About Us</title>
     <link rel="shortcut icon" href="../img/logoHuman.png" type="image/x-icon">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +21,8 @@
 </head>
 
 <body>
-    <header id="header">
+    <div class="bodyContainer">
+        <header id="header">
         <nav class="navbar navbar-expand-md boder-primary">
             <div class="container-fluid">
                 <a class="navbar-brand logoContainer" href="../index.html"><img src="../img/logoHuman.png" alt="Logo Human and Nature Co" class="logo"></a>
@@ -45,30 +47,25 @@
                 </div>
             </div>
         </nav>
-    </header>
+        </header>
         <main>
-            <div class="aboutUsContainer">
-                <section>
-                    <article class="cardContainer">
-                        <div class="card1">
-                            <p>We are Verónica and Martina, we live in A Coruña. Photographers and video editors, it all started as a hobby. <br>
-                            Today we dream of reaching more and more people and share what we love the most.
-                            </p>            
-                        </div>
-                        <div class="card2">
-                            <a href="../pages/galery.html"></a>
-                        </div>
-                        <div class="card1">
-                            <p>Human and Nature Co. was born from two passions: photography and nature. We believe that there is nothing better than nature to reconnect with ourselves. <br> We hope you enjoy our content!
-                            </p>
-                        </div>
-                    </article>
-                </section>
-                <div class="aboutUsText">
-                    <a href="https://www.youtube.com/@humanandnatureco" target="_blank">
-                    <p>👉 We invite you to subscribe to our Youtube channel <br> and learn a little more about our work.</p></a>
+            <section class="sectionAboutUs">
+                <div class="textContainer">
+                    <h2 id="aboutUs">About Us</h2>
+                </div>
+            </section>
+            <section class="container aboutUsText">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6 text-left text1" data-aos="flip-left">
+                        <p class="textContact">We are Verónica and Martina, we live in A Coruña. Photographers and video editors, it all started as a hobby. <br>Today we dream of reaching more and more people and share what we love the most.
+                        </p>
                     </div>
-            </div>
+                    <div class="col-12 col-md-12 col-lg-6 text-left text1 " data-aos="flip-right">
+                        <p class="textContact">Human and Nature Co. was born from two passions: photography and nature. We believe that there is nothing better than nature to reconnect with ourselves.<br>We hope you enjoy our content!
+                        </p>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer id="footer">
             <section>
@@ -77,7 +74,7 @@
                     <p class="footerInfo">hola@humanandnature.com</p>
                 </div>
                 <div class="socialContainer">
-                    <a href="#" class="socialLink"></a>
+                    <!-- <a href="#" class="socialLink"></a> -->
                     <a href="#" class="socialLink"></a>
                     <a href="#" class="socialLink"></a>
                 </div>
@@ -86,9 +83,7 @@
                 </section>
             </section>
         </footer>
-
-
-
+    </div>
 
 <!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

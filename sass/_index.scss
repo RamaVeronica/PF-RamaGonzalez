@@ -16,15 +16,15 @@ $green1: #015701;
     margin-bottom: 7rem;
 }
 
-.sectionAboutUs{
-    @extend .mainContainer;
-    background-image: url(../img/fotografa.jpg);
-    margin-bottom: 4rem;
-    a{
-        text-decoration: none;
-        color: #fff
-    }
-}
+// .sectionAboutUs{
+//     @extend .mainContainer;
+//     background-image: url(../img/fotografa.jpg);
+//     margin-bottom: 4rem;
+//     a{
+//         text-decoration: none;
+//         color: #fff
+//     }
+// }
 
 .textContainer{
     color: rgb(236, 236, 236);

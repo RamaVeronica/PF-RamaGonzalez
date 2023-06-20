@@ -29,7 +29,7 @@
 }
 
 /* INDEX */
-.mainContainer, .sectionAboutUs {
+.mainContainer, .sectionAboutUs, .aboutUsContainer {
   background-image: url(../img/bosque-lg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,13 +38,17 @@
   margin-bottom: 7rem;
 }
 
-.sectionAboutUs {
+.sectionAboutUs, .aboutUsContainer {
   background-image: url(../img/fotografa.jpg);
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
-.sectionAboutUs a {
+.sectionAboutUs a, .aboutUsContainer a {
   text-decoration: none;
   color: #fff;
+}
+
+.aboutUsContainer {
+  background-image: url(../img/fotografa.jpg);
 }
 
 .textContainer {
@@ -95,22 +99,17 @@
 }
 
 /* ABOUT US */
-.aboutUsText {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  height: 21rem;
-  width: auto;
-  margin: 0 1rem 7rem 1rem;
-}
-.aboutUsText p {
-  text-align: center;
-  font-size: 2.2rem;
-  font-weight: bolder;
-  margin: 1rem;
+.imgAboutUs {
+  background-image: url(../img/aboutUs2sm.jpg);
+  background-position: cover;
+  background-repeat: none;
+  height: 65vh;
+  margin-bottom: 5rem;
 }
 
-.text1 {
-  background-color: #89BE89;
-  border-radius: 1rem;
+.textAboutUs {
+  font-size: 2.5rem;
+  padding: 5rem;
 }
 
 /*VIDEOS*/ /*GALERY*/
@@ -151,6 +150,7 @@
   width: auto;
   display: flex;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .formControl {
@@ -180,11 +180,17 @@
 #footer section {
   height: fit-content;
   width: 100%;
-  padding: 2rem 4rem;
+  padding-top: 2rem;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+}
+#footer section p {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  color: #015701;
 }
 
 .footerContentContainer {
@@ -201,6 +207,19 @@
   text-shadow: 1px 1px #fff;
 }
 
+.followUsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.followUsContainer h4 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #015701;
+}
+
 .socialContainer {
   display: flex;
   justify-content: center;
@@ -211,26 +230,48 @@
 .socialContainer a {
   height: 100%;
   width: 40px;
-  background-image: url(../img/facebook.png);
-  background-size: 60%;
+  background-image: url(../img/IG.png);
+  background-size: 80%;
   background-position: center;
   margin-right: 1rem;
+  margin-left: 1rem;
   background-repeat: no-repeat;
+}
+.socialContainer a:hover {
+  transform: scale(1.2);
 }
 
 footer .socialLink:nth-of-type(2) {
-  background-image: url(../img/instagram.png);
-  background-size: 60%;
+  background-image: url(../img/YT.png);
+  background-size: 80%;
+}
+footer .socialLink:nth-of-type(2):hover {
+  transform: scale(1.2);
 }
 
 footer .socialLink:nth-of-type(3) {
-  background-image: url(../img/Youtube.png);
+  background-image: url(../img/FB.png);
   background-size: 60%;
 }
 
+@media screen and (max-width: 1024px) {
+  .iframeVideo {
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  .galeryContainer {
+    padding: 2rem 8rem 5rem 8rem;
+  }
+  .textAboutUs {
+    padding-top: 0;
+  }
+  .imgAboutUs {
+    height: 71vh;
+  }
+}
 @media screen and (max-width: 768px) {
   .bodyContainer {
-    padding: 0 6rem 0 6 rem;
+    padding: 0 6rem 0 6rem;
   }
   .mainContainer {
     height: 44rem;
@@ -260,6 +301,9 @@ footer .socialLink:nth-of-type(3) {
   .sectionVideos p {
     font-size: 2rem;
   }
+  .iframeVideo {
+    justify-content: center;
+  }
   .footerContentContainer {
     margin-right: 3rem;
   }
@@ -270,7 +314,7 @@ footer .socialLink:nth-of-type(3) {
     padding: 2rem 1rem;
   }
   .galeryContainer {
-    padding: 2rem 0 8rem 0;
+    padding: 2rem 5rem 8rem 5rem;
   }
   .contactForm {
     margin: 2rem 3rem;
@@ -283,8 +327,16 @@ footer .socialLink:nth-of-type(3) {
   .contactForm p {
     font-size: 1.3rem;
   }
-  .aboutUsText {
-    height: 32rem;
+  .aboutUsContainer {
+    height: 51rem;
+  }
+  .textAboutUs {
+    font-size: 2.2rem;
+  }
+  .imgAboutUs {
+    height: 50rem;
+    width: 50rem;
+    margin-left: 5rem;
   }
 }
 /* 600px */

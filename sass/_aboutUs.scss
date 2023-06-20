@@ -1,20 +1,14 @@
 /* ABOUT US */
 
-.aboutUsText{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: 21rem;
-    width: auto;
-    margin: 0 1rem 7rem 1rem;
-        p{
-            text-align: center;
-            font-size: 2.2rem;
-            font-weight: bolder;
-            margin: 1rem;
-        }
+.imgAboutUs{
+    background-image: url(../img/aboutUs2sm.jpg);
+    background-position: cover;
+    background-repeat: none;
+    height: 65vh;
+    margin-bottom: 5rem;
 }
 
-.text1{
-    background-color: #89BE89;
-    border-radius: 1rem;
+.textAboutUs{
+    font-size: 2.5rem;
+    padding: 5rem;
 }
-

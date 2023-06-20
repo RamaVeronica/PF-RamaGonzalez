@@ -1,6 +1,5 @@
 /* INDEX */
 $size_title: 6rem;
-$font_title: Haettenschweiler;
 $green1: #015701;
 
 
@@ -20,7 +19,7 @@ $green1: #015701;
 .sectionAboutUs{
     @extend .mainContainer;
     background-image: url(../img/fotografa.jpg);
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     a{
         text-decoration: none;
         color: #fff
@@ -29,13 +28,11 @@ $green1: #015701;
 
 .textContainer{
     color: rgb(236, 236, 236);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     @include sizes(auto, 100%);
         h1{
         display: flex;
         text-align: center;
         justify-content: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 8rem;
         line-height: 14rem;
         padding-top: 20rem;
@@ -52,7 +49,6 @@ $green1: #015701;
         }
         h3{
             @extend h1;
-            font-size: $size_title;
             color: $green1;
             padding-top: 0rem;
         }

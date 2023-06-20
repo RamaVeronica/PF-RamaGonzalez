@@ -1,9 +1,26 @@
 // MEDIA QUERIES
 
+// 1024px
+@media screen and (max-width:1024px){
+    .iframeVideo{
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+    .galeryContainer{
+        padding: 2rem 8rem 5rem 8rem;
+    }
+    .textAboutUs{
+    padding-top: 0;        
+    }
+    .imgAboutUs{
+        height: 71vh;
+    }
+}
+
 // 768px
 @media screen and (max-width:768px){
     .bodyContainer{
-        padding: 0 6rem 0 6 rem;
+        padding: 0 6rem 0 6rem;
     }
 
     .mainContainer{
@@ -38,6 +55,9 @@
             font-size: 2rem;
         }
     }
+    .iframeVideo{
+        justify-content: center;
+    }
 
     .footerContentContainer{
         margin-right: 3rem;
@@ -53,7 +73,7 @@
     }
     
     .galeryContainer{
-        padding: 2rem 0 8rem 0;
+        padding: 2rem 5rem 8rem 5rem;
     }
 
     .contactForm{
@@ -68,8 +88,16 @@
         }
     }
 
-    .aboutUsText{
-        height: 32rem;
+    .aboutUsContainer{
+        height: 51rem;
+    }
+    .textAboutUs{
+        font-size: 2.2rem;
+    }
+    .imgAboutUs{
+        height: 50rem;
+        width: 50rem;
+        margin-left: 5rem;
     }
 }
 

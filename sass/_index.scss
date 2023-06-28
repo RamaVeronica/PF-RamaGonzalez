@@ -8,6 +8,10 @@ $green1: #015701;
     width: $width;
 }
 
+.bodyContainer{
+    padding: 0 8rem 0 8rem;
+}
+
 .mainContainer{
     background-image: url(../img/bosque-lg.jpg);
     background-size: cover;
@@ -16,16 +20,6 @@ $green1: #015701;
     margin-bottom: 7rem;
 }
 
-// .sectionAboutUs{
-//     @extend .mainContainer;
-//     background-image: url(../img/fotografa.jpg);
-//     margin-bottom: 4rem;
-//     a{
-//         text-decoration: none;
-//         color: #fff
-//     }
-// }
-
 .textContainer{
     color: rgb(236, 236, 236);
     @include sizes(auto, 100%);
@@ -33,9 +27,10 @@ $green1: #015701;
         display: flex;
         text-align: center;
         justify-content: center;
-        font-size: 8rem;
+        font-size: 10rem;
         line-height: 14rem;
         padding-top: 20rem;
+        font-family: Haettenschweiler;
         }
         p{
             text-align: center;
@@ -44,17 +39,13 @@ $green1: #015701;
         }
         h2{
             @extend h1;
-            font-size: $size_title;
-            padding-top: 24rem;
-        }
-        h3{
-            @extend h1;
             color: $green1;
             padding-top: 0rem;
+            font-size: 8rem;
         }
 }
 
-.sectionVideos{
+.sectionMedia{
     line-height: 10rem;
     p{
         color: $green1;

@@ -24,37 +24,14 @@
     }
 }
 
-// .footerContentContainer{
-//     display: flex;
-//     justify-content: flex-start;
-//     align-items: flex-start;
-//     flex-direction: column;
-//     margin: 0.5rem;
-//     margin-right: 12rem;
-//     p{
-//         color: black;
-//         font-size: 1.5rem;
-//         text-shadow: 1px 1px #fff;
-//     }
-// }
-
-
-// .footerMenu{
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: flex-start;
-//     width: 45%;
-//     font-size: 1.2rem;
-// }
-
 .followUsContainer{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     height: 100%;
-    h4{
-        font-size: 1.7rem;
+    h3{
+        font-size: 1.8rem;
         font-weight: bold;
         color: #015701;
     }

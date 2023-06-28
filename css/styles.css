@@ -29,7 +29,11 @@
 }
 
 /* INDEX */
-.mainContainer, .sectionAboutUs, .aboutUsContainer {
+.bodyContainer {
+  padding: 0 8rem 0 8rem;
+}
+
+.mainContainer {
   background-image: url(../img/bosque-lg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,33 +42,19 @@
   margin-bottom: 7rem;
 }
 
-.sectionAboutUs, .aboutUsContainer {
-  background-image: url(../img/fotografa.jpg);
-  margin-bottom: 4rem;
-}
-.sectionAboutUs a, .aboutUsContainer a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.aboutUsContainer {
-  background-image: url(../img/fotografa.jpg);
-}
-
 .textContainer {
   color: rgb(236, 236, 236);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   height: 100%;
   width: auto;
 }
-.textContainer h1, .textContainer h3, .textContainer h2 {
+.textContainer h1, .textContainer h2 {
   display: flex;
   text-align: center;
   justify-content: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 8rem;
+  font-size: 10rem;
   line-height: 14rem;
   padding-top: 20rem;
+  font-family: Haettenschweiler;
 }
 .textContainer p {
   text-align: center;
@@ -72,24 +62,20 @@
   font-weight: bolder;
 }
 .textContainer h2 {
-  font-size: 6rem;
-  padding-top: 24rem;
-}
-.textContainer h3 {
-  font-size: 6rem;
   color: #015701;
   padding-top: 0rem;
+  font-size: 8rem;
 }
 
-.sectionVideos {
+.sectionMedia {
   line-height: 10rem;
 }
-.sectionVideos p {
+.sectionMedia p {
   color: #015701;
   font-size: 2.5rem;
   line-height: 1rem;
 }
-.sectionVideos a {
+.sectionMedia a {
   text-decoration: none;
 }
 
@@ -112,7 +98,18 @@
   padding: 5rem;
 }
 
-/*VIDEOS*/ /*GALERY*/
+.aboutUsContainer {
+  background-image: url(../img/fotografa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 7rem;
+  height: 65rem;
+}
+.aboutUsContainer h1 {
+  line-height: 20rem;
+}
+
+/*GALERY*/
 .galeryContainer {
   padding: 2rem 8rem 8rem 8rem;
 }
@@ -121,7 +118,7 @@
   text-align: center;
   color: #0b7630;
   font-family: Haettenschweiler;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .photoContainer div {
@@ -140,6 +137,9 @@
 .contactForm div p {
   font-size: 1.8rem;
   margin-top: 1rem;
+}
+.contactForm label {
+  font-size: 2rem;
 }
 
 .containerForm {
@@ -193,20 +193,6 @@
   color: #015701;
 }
 
-.footerContentContainer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 0.5rem;
-  margin-right: 12rem;
-}
-.footerContentContainer p {
-  color: black;
-  font-size: 1.5rem;
-  text-shadow: 1px 1px #fff;
-}
-
 .followUsContainer {
   display: flex;
   width: 100%;
@@ -214,8 +200,8 @@
   align-items: center;
   height: 100%;
 }
-.followUsContainer h4 {
-  font-size: 1.7rem;
+.followUsContainer h3 {
+  font-size: 1.8rem;
   font-weight: bold;
   color: #015701;
 }
@@ -249,11 +235,6 @@ footer .socialLink:nth-of-type(2):hover {
   transform: scale(1.2);
 }
 
-footer .socialLink:nth-of-type(3) {
-  background-image: url(../img/FB.png);
-  background-size: 60%;
-}
-
 @media screen and (max-width: 1024px) {
   .iframeVideo {
     justify-content: center;
@@ -266,7 +247,8 @@ footer .socialLink:nth-of-type(3) {
     padding-top: 0;
   }
   .imgAboutUs {
-    height: 71vh;
+    height: 65rem;
+    width: 43rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -274,61 +256,54 @@ footer .socialLink:nth-of-type(3) {
     padding: 0 6rem 0 6rem;
   }
   .mainContainer {
-    height: 44rem;
+    height: 50rem;
+    margin-bottom: 5rem;
   }
   .mainContainer h1 {
-    line-height: 7rem;
-    font-size: 5.5rem;
+    line-height: 12rem;
+    font-size: 7rem;
     padding-top: 13rem;
   }
   .mainContainer p {
     font-size: 2.5rem;
   }
-  .sectionAboutUs {
-    height: 44rem;
+  .aboutUsContainer {
+    height: 50rem;
   }
-  .sectionAboutUs h2 {
-    line-height: 7rem;
-    font-size: 5.5rem;
+  .aboutUsContainer h1 {
+    line-height: 21rem;
+    font-size: 7rem;
     padding-top: 13rem;
   }
-  .sectionAboutUs p {
-    font-size: 2.2rem;
-  }
-  .sectionVideos h3 {
+  .sectionMedia h2 {
     font-size: 5rem;
+    line-height: 10rem;
   }
-  .sectionVideos p {
+  .sectionMedia p {
     font-size: 2rem;
   }
   .iframeVideo {
     justify-content: center;
   }
-  .footerContentContainer {
-    margin-right: 3rem;
-  }
-  .footerContentContainer p {
-    font-size: 1.2rem;
-  }
   #footer section {
     padding: 2rem 1rem;
   }
   .galeryContainer {
-    padding: 2rem 5rem 8rem 5rem;
+    padding: 2rem 5rem 4rem 5rem;
   }
   .contactForm {
     margin: 2rem 3rem;
   }
   .contactForm h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     padding-top: 0;
     line-height: 3rem;
   }
-  .contactForm p {
-    font-size: 1.3rem;
+  .contactForm div p {
+    font-size: 1.5rem;
   }
-  .aboutUsContainer {
-    height: 51rem;
+  .contactForm label {
+    font-size: 1.3rem;
   }
   .textAboutUs {
     font-size: 2.2rem;
@@ -336,7 +311,7 @@ footer .socialLink:nth-of-type(3) {
   .imgAboutUs {
     height: 50rem;
     width: 50rem;
-    margin-left: 5rem;
+    margin-left: 8rem;
   }
 }
 /* 600px */
@@ -345,47 +320,28 @@ footer .socialLink:nth-of-type(3) {
     padding: 0 5rem 0 5rem;
   }
   .mainContainer {
-    height: 40rem;
+    margin-bottom: 3rem;
   }
   .mainContainer h1 {
-    line-height: 9rem;
-    font-size: 400%;
+    font-size: 6.5rem;
   }
   .mainContainer p {
+    font-size: 2.5rem;
+  }
+  .aboutUsContainer {
+    height: 45rem;
+  }
+  .aboutUsContainer h1 {
+    line-height: 15rem;
+    font-size: 6rem;
+  }
+  .textAboutUs {
     font-size: 2rem;
   }
-  .sectionAboutUs {
-    height: 38rem;
-  }
-  .sectionAboutUs h2 {
-    font-size: 4.5rem;
-  }
-  .sectionAboutUs p {
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  .aboutUsText {
-    height: 31rem;
-  }
-  .aboutUsText p {
-    font-size: 1.8rem;
-  }
-  .sectionVideos h3 {
-    font-size: 4.5rem;
-  }
-  .sectionVideos p {
-    font-size: 1.5rem;
-  }
-  .footerContentContainer {
-    margin-right: 6rem;
-  }
-  .footerContentContainer p {
-    font-size: 1.3rem;
-  }
-  .sectionContainer {
-    height: 33rem;
-    padding: 0 10rem;
+  .imgAboutUs {
+    height: 46rem;
+    width: 47rem;
+    margin-left: 2rem;
   }
   .contactForm {
     margin: 2rem 3rem;
@@ -399,44 +355,25 @@ footer .socialLink:nth-of-type(3) {
     padding: 0 3rem 0 3rem;
   }
   .mainContainer {
-    height: 47rem;
-    margin: 0 0.5rem 5 0.5rem;
+    height: 48rem;
+    margin-bottom: 2.5rem;
   }
   .mainContainer h1 {
-    line-height: 8rem;
-    font-size: 234%;
+    font-size: 5rem;
   }
   .mainContainer p {
     font-size: 2rem;
   }
-  .sectionAboutUs {
-    height: 38rem;
-    margin-bottom: 6px;
-  }
-  .sectionAboutUs h2 {
+  .sectionMedia h2 {
     font-size: 4.5rem;
+    line-height: 9rem;
   }
-  .sectionAboutUs p {
+  .sectionMedia p {
     font-size: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
-  .sectionVideos {
-    line-height: 10rem;
-  }
-  .aboutUsText {
-    height: 35rem;
-  }
-  .aboutUsText p {
-    font-size: 1.3;
-  }
-  .footerContentContainer {
-    margin-right: 0;
-  }
-}
-@media screen and (max-width: 480px) {
-  .bodyContainer {
-    padding: 0;
+  .imgAboutUs {
+    height: 39rem;
+    width: 38rem;
   }
 }
 * {
@@ -449,10 +386,6 @@ footer .socialLink:nth-of-type(3) {
 
 html {
   font-size: 62.5%;
-}
-
-.bodyContainer {
-  padding: 0 8rem 0 8rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -12,10 +12,6 @@
     .textAboutUs{
     padding-top: 0;        
     }
-    .imgAboutUs{
-        height: 65rem;
-        width: 43rem;
-    }
 }
 
 // 768px
@@ -23,7 +19,6 @@
     .bodyContainer{
         padding: 0 6rem 0 6rem;
     }
-
     .mainContainer{
         height: 50rem;
         margin-bottom: 5rem;
@@ -36,7 +31,6 @@
                 font-size: 2.5rem;
             }
     }  
-
     .aboutUsContainer{
         height: 50rem;
         h1{
@@ -45,7 +39,6 @@
             padding-top: 13rem;
         }
     }
-
     .sectionMedia{
         h2{
             font-size: 5rem;
@@ -58,17 +51,14 @@
     .iframeVideo{
         justify-content: center;
     }
-    
     #footer{
         section{
             padding: 2rem 1rem;
         }
     }
-    
     .galeryContainer{
         padding: 2rem 5rem 4rem 5rem;
     }
-
     .contactForm{
         margin: 2rem 3rem;
         h1{
@@ -88,11 +78,6 @@
     .textAboutUs{
         font-size: 2.2rem;
     }
-    .imgAboutUs{
-        height: 50rem;
-        width: 50rem;
-        margin-left: 8rem;
-    }
 }
 
 /* 600px */
@@ -110,7 +95,6 @@
             font-size: 2.5rem;
         }
     }
-
     .aboutUsContainer{
         height: 45rem;
         h1{
@@ -118,16 +102,9 @@
             font-size: 6rem;
         }
     }
-
     .textAboutUs{
         font-size: 2rem;
     }
-    .imgAboutUs{
-        height: 46rem;
-        width: 47rem;
-        margin-left: 2rem;
-    }
-
     .contactForm{
         margin: 2rem 3rem;
         h1{
@@ -141,7 +118,6 @@
     .bodyContainer{
         padding: 0 3rem 0 3rem;
     }
-
     .mainContainer{
         height: 48rem;
         margin-bottom: 2.5rem;
@@ -152,7 +128,6 @@
             font-size: 2rem;
         }
     }
-
     .aboutUsContainer{
         height: 36rem;
         h1{
@@ -168,11 +143,6 @@
             font-size: 1.5rem;
         }
     }
-
-    .imgAboutUs{
-        height: 39rem;
-        width: 38rem;
-    }
 }
 
 // 320px
@@ -180,7 +150,6 @@
     .bodyContainer{
         padding: 0 1rem 0 1rem;
     }
-
     .mainContainer{
         margin-bottom: 0rem;
         h1{
@@ -202,13 +171,8 @@
         }
     }
     .textAboutUs{
-        text-align: center;
         font-size: 1.7rem;
         padding-bottom: 1rem;
-    }
-    .imgAboutUs{
-        height: 37rem;
-        width: 28rem;
     }
     .galeryMain{
         h1{

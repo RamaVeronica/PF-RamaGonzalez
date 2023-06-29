@@ -85,24 +85,26 @@
 }
 
 /* ABOUT US */
-.imgAboutUs {
-  background-image: url(../img/aboutUs2sm.jpg);
-  background-position: cover;
-  background-repeat: none;
-  height: 65vh;
-  margin-bottom: 5rem;
-}
-
 .textAboutUs {
   font-size: 2.5rem;
   padding: 5rem;
+  text-align: center;
+}
+
+.imgAboutUs {
+  background-image: url(../img/aboutUs2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  margin-bottom: 3rem;
+  line-height: 35rem;
 }
 
 .aboutUsContainer {
   background-image: url(../img/fotografa.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
   height: 65rem;
 }
 .aboutUsContainer h1 {
@@ -246,10 +248,6 @@ footer .socialLink:nth-of-type(2):hover {
   .textAboutUs {
     padding-top: 0;
   }
-  .imgAboutUs {
-    height: 65rem;
-    width: 43rem;
-  }
 }
 @media screen and (max-width: 768px) {
   .bodyContainer {
@@ -308,11 +306,6 @@ footer .socialLink:nth-of-type(2):hover {
   .textAboutUs {
     font-size: 2.2rem;
   }
-  .imgAboutUs {
-    height: 50rem;
-    width: 50rem;
-    margin-left: 8rem;
-  }
 }
 /* 600px */
 @media screen and (max-width: 600px) {
@@ -337,11 +330,6 @@ footer .socialLink:nth-of-type(2):hover {
   }
   .textAboutUs {
     font-size: 2rem;
-  }
-  .imgAboutUs {
-    height: 46rem;
-    width: 47rem;
-    margin-left: 2rem;
   }
   .contactForm {
     margin: 2rem 3rem;
@@ -377,10 +365,6 @@ footer .socialLink:nth-of-type(2):hover {
   .sectionMedia p {
     font-size: 1.5rem;
   }
-  .imgAboutUs {
-    height: 39rem;
-    width: 38rem;
-  }
 }
 @media screen and (max-width: 320px) {
   .bodyContainer {
@@ -405,13 +389,8 @@ footer .socialLink:nth-of-type(2):hover {
     line-height: 0rem;
   }
   .textAboutUs {
-    text-align: center;
     font-size: 1.7rem;
     padding-bottom: 1rem;
-  }
-  .imgAboutUs {
-    height: 37rem;
-    width: 28rem;
   }
   .galeryMain h1 {
     font-size: 4rem;

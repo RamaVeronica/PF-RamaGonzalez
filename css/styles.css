@@ -364,6 +364,12 @@ footer .socialLink:nth-of-type(2):hover {
   .mainContainer p {
     font-size: 2rem;
   }
+  .aboutUsContainer {
+    height: 36rem;
+  }
+  .aboutUsContainer h1 {
+    line-height: 5rem;
+  }
   .sectionMedia h2 {
     font-size: 4.5rem;
     line-height: 9rem;
@@ -374,6 +380,41 @@ footer .socialLink:nth-of-type(2):hover {
   .imgAboutUs {
     height: 39rem;
     width: 38rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bodyContainer {
+    padding: 0 1rem 0 1rem;
+  }
+  .mainContainer {
+    margin-bottom: 0rem;
+  }
+  .mainContainer h1 {
+    font-size: 4rem;
+    line-height: 10rem;
+  }
+  .sectionMedia p {
+    font-size: 1.2rem;
+  }
+  .aboutUsContainer {
+    height: 27rem;
+    margin-bottom: 2rem;
+  }
+  .aboutUsContainer h1 {
+    font-size: 5rem;
+    line-height: 0rem;
+  }
+  .textAboutUs {
+    text-align: center;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+  }
+  .imgAboutUs {
+    height: 37rem;
+    width: 28rem;
+  }
+  .galeryMain h1 {
+    font-size: 4rem;
   }
 }
 * {
